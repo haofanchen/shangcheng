@@ -1,0 +1,37 @@
+#middle{ width:1300px; border:2px solid #ccc; margin:50px auto 0; margin-bottom:100px; position:relative; padding-bottom:200px;}
+.top{ width:100%; height:90px; overflow:hidden; border-bottom:4px solid #ccc;}
+.top .left{ text-align:center; width:100px; float:left; margin:20px;}
+.top .left span{ display:inline-block; transform:rotate(90deg); color:#ccc; }
+.top .right{ float:left; margin-top:52px; margin-left:40px;}
+.top .right p{ float:left; color:#333; text-align:center;}
+.top .right p span{ float:left; width:120px; height:36px; line-height:36px; border:1px solid #333; border-left:none;}
+.top .right p span:nth-of-type(1){ border-left:1px solid #000;}
+.content{ overflow:hidden;}
+.content .left{ margin-left:10px; float:left; margin-top:10px;}
+.content .left li{ width:120px; text-align:center; font-size:14px; margin-bottom:20px;}
+.content .right{ float:left; margin-left:80px; margin-top:20px;}
+.content .right ul{ overflow:hidden;}
+.content .right ul li{ float:left; width:166px; height:30px; text-align:center; line-height:30px; border:1px solid #000; color:#333; border-left:none;}
+.content .right ul li:nth-of-type(1){ border-left:1px solid #000; width:400px;}
+.content .right table{ border-collapse:collapse; border:1px solid #000; margin-top:20px; font-size:12px;}
+tr,td{ border:1px solid #000; overflow:hidden; height:122px; text-align:center;}
+td:nth-of-type(1){ text-align:left;}
+.content .right table img{ width:100px; height:80px; float:left; border:1px solid #000; margin-left:10px;}
+.content .right table div{ float:left; margin-left:20px; line-height:30px;}
+.content .right table span:nth-of-type(1){ display:inline-block; width:20px; height:20px; border:1px solid #000; text-align:center; line-height:20px;}
+.content .right table label{ display:inline-block; width:20px; height:20px; border:1px solid #000; text-align:center; line-height:20px; border-left:none; cursor:pointer;}
+.content .right table label:hover{ background:#ccc;}
+.content .right table td:nth-of-type(2) span{ color:#F30; width:50px;}
+.content .right table label:nth-of-type(1){ border-left:1px solid #000; border-right:none;}
+.content .bottom{ width:900px; margin-top:50px; font-size:14px;}
+.content .bottom input[type=checkbox]{ float:left; width:16px; height:16px; margin-top:3px;}
+.content .bottom label{ float:left;}
+.content .bottom .cut{ float:left; margin-left:10px;}
+.content .bottom div{ float:right;}
+.content .bottom div .sum{ color:#F30;}
+.content .bottom div input{ width:100px; height:30px; background:#F30; border:none; color:#fff; margin-left:10px;}
+.yes{ background:#ccc;}
+.content .left a{color:#000;}
+.content .left .one{ color:#F30;}
+.img1{ padding:0 60px 60px; background:#fff; position:absolute; left:50%; margin-left:-218px; bottom:-50px;}
+.img2{ position:absolute; position:absolute; left:50%; margin-left:-150px; bottom:-90px;}

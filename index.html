@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/index.css"/>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/top&bottom.js"></script>
+
+<script>
+$(function(){
+	var a=$('.ha img').css('width');
+	var b=194*($('.ha img').length);
+	$('.ha').css('width',b+'px');
+	$('.ha').css('left',0);
+	$('.ha').css('top',0);
+
+	$('.two').click(function(){
+		var c=parseInt($('.ha').css('left'));
+		$('.ha').css('left',c-194+'px');
+		if(c<(-b+582)){
+			$('.ha').css('left',(-b+582)+'px');
+		}
+		
+			
+	})
+	$('.one').click(function(){
+		var c=parseInt($('.ha').css('left'));
+		$('.ha').css('left',c+194+'px');
+		if(c>0){
+			$('.ha').css('left',0);
+		}
+			
+	})
+	
+	
+})
+</script>
+</head>
+
+<body>
+<div id="header"></div>
+<div id="middle">
+	<p>H1,安全聚合移动电源</p>
+    <p>一款比你想象中更薄的移动电源</p>
+    <div class="box">
+    	<div>
+    		<img src="images/in1.png"/>
+    		<ul>
+        		<li>习近平会见默克尔:中德要把握合作主流</li>
+            	<li>习近平会见默克尔:中德要把握合作主流</li>
+            	<li>习近平会见默克尔:中德要把握合作主流</li>
+            	<li>习近平会见默克尔:中德要把握合作主流</li>
+            	<li>习近平会见默克尔:中德要把握合作主流</li>
+        	</ul>
+        </div>
+        <ul class="right">
+        	<span class="one">< </span>
+            <div class="he">
+			<div class="ha">	
+            	<img src="images/in1.png"/>	            
+        		<img src="images/in2.png"/>
+                <img src="images/in1.png"/>
+            	<img src="images/in2.png"/>
+                <img src="images/in1.png"/>
+            	<img src="images/in2.png"/>
+                <img src="images/in1.png"/>
+                <img src="images/in2.png"/>	 
+            </div>
+            </div>
+            <span class="two">></span>
+        </ul>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

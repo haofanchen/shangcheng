@@ -1,0 +1,21 @@
+#header div ul li:nth-of-type(5) a{ color:#c00;}
+#middle{ width:100%; height:900px; background:url(../images/coback1.png); background-size:100% 100%; overflow:hidden;}
+#middle .content{ width:1100px; margin:0 auto;}
+#middle .content p{ margin:30px 0;}
+#middle .content p a{ color:#000;}
+#middle form{ float:left; text-align:center;}
+#middle form input{ height:26px; margin:16px 20px; background:rgba(255,255,255,0); border:none; border:1px solid #000;}
+#middle form input[type=text]:nth-of-type(7){ width:110px; margin-bottom:0;}
+#middle form input[type=submit]{ width:110px; margin-top:0;}
+#middle form textarea{ width:534px; height:150px; resize:none; background:rgba(255,255,255,0); border:none; border:1px solid #000;}
+.content div{ float:right;}
+.content div img{ width:480px; height:290px; border:5px solid #ccc;}
+.content div ul li{ margin:16px 0;}
+
+
+
+
+
+
+
+

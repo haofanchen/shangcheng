@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/news.css"/>
+<link rel="stylesheet" href="css/newsbase.css"/>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/top&bottom.js"></script>
+<script>
+$(function(){
+	var a=$('.content').html()
+	
+	var b='<div class="new"><span class="endfn">x</span><h3>品迪(podi)PD4S-01移动电源充电宝通用4500毫安</h3><p>深圳市品迪科技有限公司是一家专业从事研发、生产和销售移动电源以及主要针对iPhone、iPad、PSP、MP3/MP4等多种数码设备的万能便携电源的高新技术企业我们立志通过对产品及服务的不断革新，成为移动电源民族品牌的领导者。</p><p>品迪科技前身专业从事模具开发五金制造领域13年，拥有国内最优秀的团队，国内大型电芯及电池厂家均是我们的合作伙伴我们拥有在电源领域经验丰富的技术型雇员超过180位，通过了ISO9001:2008认证，多项产品也逐一通过了CE，RoHS，FCC等认证。同时，品迪的所有产品在全球范围实行了“三包”，可靠的售后服务确保了客户的利益.</p><p> 品迪的产品型号也很多，在品迪官网上可以看到7款不同型号的产品，品迪的产品型号从电池容量2600mAh到11200mAh，输出电压电流有5V 4500mA、5V 1A的，品迪主要是针对手机、数码相机、psp，还有ipad这类充电电压为5V的设备不同的电流可以满足不同型号的设备的需要。最畅销的型号分别是： PD2S-0管理，一流的服务体系 科学的市场策略，全力为用户提供更经典、更时尚、更领先的优秀产品。并以执着的创新精神，不断突破自我，为树立一流的国际化企业而不懈努力！  </p></div></div>'
+	
+	$('.content').append(b);
+	$('.new').css('display','none');
+	
+	$('.right ul li').click(function(){
+		$('.right').css('display','none');
+		$('.new').stop().fadeIn(500);
+		 
+		$('.endfn').click(function(){
+			$('.new').css('display','none');
+			$('.right').css('display','block');
+			
+		}) ;
+	})
+	
+	
+	
+
+})
+</script>
+</head>
+
+<body>
+<div id="header"></div>
+<div id="middle">
+	<div class="content">
+    	<img src="images/ne1.png"/>
+        <div class="right">
+        <ul>
+        	<li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+            <li>南方迎入汛最大范围暴雨 多地挑战极值<span>2017-5-12</span></li>
+        </ul>
+        <div class="clear"></div>
+     	<p>
+        	<a href="#">上一页</a>
+            <a class="one" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">....</a>
+            <a href="#">10</a>
+            <a href="#">下一页</a>
+      	</p>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

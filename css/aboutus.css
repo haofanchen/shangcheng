@@ -1,0 +1,6 @@
+#header div ul li:nth-of-type(2) a{ color:#c00;}
+#middle{ width:100%; height:950px; overflow:hidden;}
+#middle h3{ text-align:center; margin:54px 0;}
+#middle div{ width:900px; height:650px; margin:0 auto; border:2px solid #e3e3e3; position:relative; box-shadow:0 0 10px #000;}
+#middle div p{ width:800px; margin:0 auto; line-height:50px; text-indent:2em; }
+#middle div img{  position:absolute; bottom:-164px; left:50%; margin-left:-328px;}

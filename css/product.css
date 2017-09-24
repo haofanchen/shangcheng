@@ -1,0 +1,35 @@
+#header div ul li:nth-of-type(4) a{ color:#c00;}
+#middle{ width:100%; height:900px; background:url(../images/prback.png); background-size:100% 100%; overflow:hidden;}
+#middle div{ width:1100px; margin:0 auto;}
+#middle div ul{ width:100%; overflow:hidden;}
+#middle div ul li{ float:left; margin:10px; width:230px; height:214px; overflow:hidden; background:#fff; position:relative; box-shadow:0 0 10px #000;}
+#middle div ul li span{ width:230px; height:214px; line-height:214px; text-align:center; display:block; background:rgba(0,0,0,0.5); position:absolute; color:#fff; font-size:20px; bottom:-214px; transition:all 0.4s;}
+#middle div ul li:hover span{ bottom:0;}
+#middle div p{ text-align:center; margin-top:40px;}
+#middle p a{ color:#000; padding:2px 6px; margin:0 5px; border:1px solid rgba(204,0,0,0); border-radius:2px;}
+#middle div p a:hover{ border-color:#c00;}
+#middle div p .one{ border-color:#c00;}
+
+/*下面为商品详情*/
+
+body{ position:relative;}
+#center{ position:absolute; width:1000px; height:690px; margin:0 auto; background:rgba(0,0,0,0.5); overflow:hidden; color:#fff;
+ top:104px; left:50%; margin-left:-550px; display:none;}
+#center .left{ width:500px; float:left; margin-top:30px;}
+#center .left span{ display:inline-block; position:absolute; width:30px; height:30px; font-size:20px; text-align:center; line-height:30px;  border-radius:100%; top:0; right:0; cursor:pointer;}
+#center .left span:hover{ background:#c00;}
+#center .left ul{ float:left;}
+#center .left ul li{ width:150px; height:150px; background:#fff; margin-bottom:10px;}
+#center .left ul li img{ width:150px; height:150px; }
+#center .left .img1{ width:340px; height:470px; float:left; margin-left:10px; margin-bottom:30px;}
+#center .left .div1{ float:left; width:155px; height:150px; border-right:1px solid #fff; text-align:center; line-height:150px;}
+#center .left .div2{ float:left; line-height:36px; margin-left:20px;}
+#center .right{ float:left; margin-left:10px; margin-top:30px;}
+#center .right span{ display:inline-block;}
+#center .right h4{ margin-top:50px;}
+#center .right .one{ color:#c00; font-size:30px; margin:20px 0;}
+#center .right p span{ width:100px; height:30px; border:1px solid #fff; text-align:center; line-height:30px; margin-right:6px; margin:14px 0;}
+#center .right input[type=number]{ background:rgba(0,0,0,0); color:#fff; width:50px; height:24px; border:none; border:1px solid #fff; margin:16px 0; text-align:center;}
+#center .right p input{ width:140px; height:40px; background:rgba(0,0,0,0); color:#fff; border:none; border:1px solid #fff; margin-top:36px; margin-right:30px;}
+#center .right div{ margin-left:100px; margin-top:30px; line-height:36px;}
+</style>

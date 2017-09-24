@@ -1,0 +1,82 @@
+#middle{ width:1300px; border:2px solid #ccc; margin:50px auto 0; margin-bottom:100px; position:relative; padding-bottom:200px;}
+.top{ width:100%; height:90px; overflow:hidden; border-bottom:4px solid #ccc;}
+.top .left{ text-align:center; width:100px; float:left; margin:20px;}
+.top .left span{ display:inline-block; transform:rotate(90deg); color:#ccc; }
+.top .right{ float:left; margin-top:52px; margin-left:40px;}
+.top .right p{ float:left; color:#333; text-align:center;}
+.top .right p span{ float:left; width:120px; height:36px; line-height:36px; border:1px solid #333; border-left:none;}
+.top .right p span:nth-of-type(1){ border-left:1px solid #000;}
+.content{ overflow:hidden;}
+.content .left{ margin-left:10px; float:left; margin-top:10px;}
+.content .left li{ width:120px; text-align:center; font-size:14px; margin-bottom:20px;}
+.content .right{
+	float:left;
+	margin-left:50px;
+	margin-top: 10px;
+	font-size:14px;
+}
+.right .info{
+	width:1000px;
+	border:1px solid #757575;
+	
+	margin-bottom: 30px;
+}
+.top1{
+	padding-left: 50px;
+	border-bottom:1px solid #757575;
+	line-height:26px;
+}
+.bottom1{
+	padding-left: 50px;
+	line-height:40px;
+}
+.bottom1 span{
+	float:right;
+	margin-right: 30px;
+}
+.add{
+	display:block;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	color:skyblue;
+	border:1px solid #757575;
+}
+.pay{
+	margin-top:40px;
+}
+.pay span{
+	margin-left: 30px;
+	padding:2px 6px;
+	height:26px;
+	border:1px solid #757575;
+}
+.right button{
+	float:right;
+	height:26px;
+	margin-top:10px;
+	background:#fff;
+	outline: none;
+	border:1px solid #757575;
+	padding:0 10px;
+}
+
+.success{
+	width:380px;
+	height:380px;
+	border-radius: 40px;
+	background:rgba(0,0,0,.6);
+	position:fixed;
+	left:50%;
+	margin-left: -190px;
+	top:50%;
+	margin-top:-190px;
+	font-size:40px;
+	font-family: '楷体';
+	line-height:380px;
+	text-align:center;
+	box-shadow: inset 0 0 80px #fff;
+	color:#fff;
+}
+.img1{ padding:0 60px 60px; background:#fff; position:absolute; left:50%; margin-left:-218px; bottom:-50px;}
+.img2{ position:absolute; position:absolute; left:50%; margin-left:-150px; bottom:-90px;}
